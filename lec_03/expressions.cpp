@@ -12,7 +12,7 @@ int main(){
     double s = 0;
     double factor;
 
-    for(int n = 0; n < 10; n++, factor *= n) {
+    for(int n = 0; n < 10; n++) {
         s += pow(-1, n) * pow(x, 2 * n + 1) / factor;
         factor *= n * 2 * (2 * n + 1);
     }
