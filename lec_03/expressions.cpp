@@ -3,6 +3,7 @@
 
 double f(double);
 
+
 int main(){
     using namespace std;
     double x;
